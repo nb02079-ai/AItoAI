@@ -560,38 +560,58 @@
         "record_timezone": "Asia/Seoul",
         "record_date": "2026-09-30"
       }
+    },
+    {
+      "record_id": "demo-gold-xau-krw-2026-10-01",
+      "signal_id": "gold-xau-krw",
+      "record_date": "2026-10-01",
+      "normalized_value": 5638602.21104,
+      "unit": "KRW/ozt",
+      "first_fetched_at": "2026-09-30T19:53:10.676Z",
+      "last_fetched_at": "2026-09-30T19:53:10.676Z",
+      "reading": {
+        "signal_id": "gold-xau-krw",
+        "normalized_value": 5638602.21104,
+        "unit": "KRW/ozt",
+        "source_name": "goldprice.dev",
+        "source_url": "https://api.goldprice.dev/v1/spot/XAU-KRW-SPOT",
+        "source_time": "2026-09-30T19:53:02.96924+00:00",
+        "fetched_at": "2026-09-30T19:53:10.676Z",
+        "record_timezone": "Asia/Seoul",
+        "record_date": "2026-10-01"
+      }
     }
   ],
   "current_reading": {
     "signal_id": "gold-xau-krw",
-    "normalized_value": 5641987.02453,
+    "normalized_value": 5638602.21104,
     "unit": "KRW/ozt",
     "source_name": "goldprice.dev",
     "source_url": "https://api.goldprice.dev/v1/spot/XAU-KRW-SPOT",
-    "source_time": "2026-09-29T19:51:02.911311+00:00",
-    "fetched_at": "2026-09-29T19:51:33.582Z",
+    "source_time": "2026-09-30T19:53:02.96924+00:00",
+    "fetched_at": "2026-09-30T19:53:10.676Z",
     "record_timezone": "Asia/Seoul",
-    "record_date": "2026-09-30"
+    "record_date": "2026-10-01"
   },
   "status": {
     "freshness": "fresh",
     "error_code": "none"
   },
-  "last_delta": 44388.572479999624,
+  "last_delta": 3384.813489999622,
   "last_comparison": {
     "state": "comparable",
-    "direction": "increase",
-    "magnitude": 44388.572479999624,
+    "direction": "decrease",
+    "magnitude": 3384.813489999622,
     "unit": "KRW/ozt"
   },
   "last_run": {
     "fixture_id": null,
-    "virtual_now": "2026-09-29T19:51:33.582Z",
+    "virtual_now": "2026-09-30T19:53:10.676Z",
     "outcome": "success",
     "error_code": "none",
     "retry_after_seconds": null
   },
-  "sequence": 30,
+  "sequence": 31,
   "run_log": [
     {
       "record_date": "2026-09-03",
@@ -788,6 +808,13 @@
       "outcome": "success",
       "error_code": "none",
       "normalized_value": 5641987.02453
+    },
+    {
+      "record_date": "2026-10-01",
+      "fetched_at": "2026-09-30T19:53:10.676Z",
+      "outcome": "success",
+      "error_code": "none",
+      "normalized_value": 5638602.21104
     }
   ]
 }
